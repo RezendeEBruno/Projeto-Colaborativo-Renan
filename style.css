@@ -27,7 +27,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     left: 43.5%;
     position: absolute;
 
-    background: green;
+    background: transparent;
     border: none;
     outline: none;
     display: block;
