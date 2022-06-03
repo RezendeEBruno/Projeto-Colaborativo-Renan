@@ -59,7 +59,21 @@ body, html {
     height: 15rem;
     width: 15rem;
 }
-:hover .btn-left, .btn-right{
+
+.btn-pic-right{
+    top: 17%;
+    left: 29%;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 25rem;
+    width: 28rem;
+}
+
+:hover .btn-left, .btn-right, .btn-pic-right{
     cursor: pointer;
 }
 
