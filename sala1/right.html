@@ -6,24 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="../css.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <title>Centenário</title>
-    <script>
-
-        function abrirVideo(){
-            
-        }
-
-    </script>
+ 
 </head>
 <body>
 
     <div id="fundo-externo">
         <div id="fundo">
             <img src="../Images/right.jpg" />
-            <button class="btn-video-s1" onclick="abrirVideo()"></a></button>
+            <div>
+
+                <a class="btn-video-s1" href="#videostory" id="videolink"></a>
+
+                <div id="videostory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/etZRCSF9YXQ" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </div>
+
+    <script>
+
+        $('#videolink').magnificPopup({
+            type:'inline',
+            midClick:true
+        })
+        
+    </script>
     
 </body>
 </html>
+

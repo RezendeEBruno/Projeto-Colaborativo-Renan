@@ -61,16 +61,16 @@ body, html {
 }
 
 .btn-video-s1{
-    top: 17%;
-    left: 29%;
+    top: 21%;
+    left: 31.5%;
     position: absolute;
 
     background: transparent;
     border: none;
     outline: none;
     display: block;
-    height: 25rem;
-    width: 28rem;
+    height: 46rem;
+    width: 50rem;
 }
 
 .btn-sala2-left{
@@ -106,4 +106,14 @@ body, html {
 #btn-fixed {
     overflow: hidden;
     position: absolute;
+}
+
+iframe{
+    position: relative; 
+    margin-left: 300px;
+}
+
+
+.mfp-hide{
+    display: none !;
 }
