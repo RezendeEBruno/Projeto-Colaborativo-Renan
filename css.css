@@ -99,6 +99,32 @@ body, html {
     width: 28rem;
 }
 
+.btn-sala3-left{
+    top: 45%;
+    left: 5%;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 16rem;
+    width: 50rem;
+}
+
+.btn-sala3-right{
+    top: 40%;
+    left: 50%;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 20rem;
+    width: 57rem;
+}
+
 :hover .btn-left, .btn-right, .btn-video-s1, .btn-sala2-left, .btn-sala2-right{
     cursor: pointer;
 }
