@@ -60,6 +60,23 @@ body, html {
     width: 15rem;
 }
 
+.btn-to-sala2{
+    top: 21%;
+    left: 45%;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 26rem;
+    width: 13rem;
+}
+
+:hover .btn-to-sala2, .btn-to-sala3{
+    cursor: grab;
+}
+
 .btn-video-s1{
     top: 21%;
     left: 31.5%;
@@ -99,6 +116,32 @@ body, html {
     width: 28rem;
 }
 
+.btn-video-s2{
+    top: 21%;
+    left: 9%;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 32rem;
+    width: 73rem;
+}
+
+.btn-to-sala3{
+    top: 68%;
+    left: 0%;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 15.25rem;
+    width: 12rem;
+}
+
 .btn-sala3-left{
     top: 45%;
     left: 5%;
@@ -125,7 +168,20 @@ body, html {
     width: 57rem;
 }
 
-:hover .btn-left, .btn-right, .btn-video-s1, .btn-sala2-left, .btn-sala2-right{
+.btn-video-s3{
+    top: 12%;
+    left: 5%;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 35rem;
+    width: 86rem;
+}
+
+:hover .btn-left, .btn-right, .btn-video-s1, .btn-sala2-left, .btn-sala2-right, .btn-sala3-left, .btn-sala3-right{
     cursor: pointer;
 }
 
