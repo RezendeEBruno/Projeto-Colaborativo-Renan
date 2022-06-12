@@ -60,20 +60,49 @@ body, html {
     width: 15rem;
 }
 
-.btn-to-sala2{
-    top: 21%;
-    left: 45%;
+.btn-to-sala1{
+    top: 95%;
+    left: 50%;
     position: absolute;
 
     background: transparent;
     border: none;
     outline: none;
     display: block;
-    height: 26rem;
-    width: 13rem;
+    height: 5rem;
+    width: 5rem;
+    transform:rotate(230deg);
 }
 
-:hover .btn-to-sala2, .btn-to-sala3{
+.btn-to-sala1p1{
+    top: 90%;
+    left: 46%;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    transform:rotate(230deg);
+}
+
+.btn-to-sala2{
+    top: 67%;
+    left: 52%;
+    position: absolute;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    transform: scaleX(-1);
+}
+
+:hover .btn-to-sala2, .btn-to-sala3, .btn-to-sala1, .btn-to-sala1p1{
     cursor: grab;
 }
 
@@ -125,21 +154,22 @@ body, html {
     border: none;
     outline: none;
     display: block;
-    height: 32rem;
+    height: 40rem;
     width: 73rem;
 }
 
 .btn-to-sala3{
-    top: 68%;
-    left: 0%;
+    top: 90%;
+    left: 50%;
     position: absolute;
 
     background: transparent;
     border: none;
     outline: none;
     display: block;
-    height: 15.25rem;
-    width: 12rem;
+    height: 5rem;
+    width: 5rem;
+    transform:rotate(203deg);
 }
 
 .btn-sala3-left{
@@ -169,15 +199,15 @@ body, html {
 }
 
 .btn-video-s3{
-    top: 12%;
-    left: 5%;
+    top: 31%;
+    left: 53%;
     position: absolute;
 
     background: transparent;
     border: none;
     outline: none;
     display: block;
-    height: 35rem;
+    height: 40rem;
     width: 86rem;
 }
 
@@ -198,4 +228,10 @@ iframe{
 
 .mfp-hide{
     display: none !;
+}
+
+.arrow{
+    height: 50px;
+    width: 50px;
+    position: absolute;
 }
