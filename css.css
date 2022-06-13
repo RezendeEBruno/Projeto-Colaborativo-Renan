@@ -199,15 +199,15 @@ body, html {
 }
 
 .btn-video-s3{
-    top: 31%;
-    left: 53%;
+    top: 10%;
+    left: 5%;
     position: absolute;
 
     background: transparent;
     border: none;
     outline: none;
     display: block;
-    height: 40rem;
+    height: 80rem;
     width: 86rem;
 }
 
