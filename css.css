@@ -10,19 +10,20 @@ body, html {
 }
 
 #fundo-externo {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     overflow: hidden; 
     width: 100%;
     height: 100%;
     position: relative;
+	background-color: black;
 }
 
 #fundo {
     position: fixed; 
-    width: 100%;
-    height: 100%;
+    width: 1920px;
+    height: 1080px;
 }
 
 #fundo img{
